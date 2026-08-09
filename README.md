@@ -14,14 +14,17 @@ https://defalt0006.github.io/reflexrush-legal/
 | Privacy Policy (EN) | https://defalt0006.github.io/reflexrush-legal/#privacy-en |
 | Términos de Uso (ES) | https://defalt0006.github.io/reflexrush-legal/#terms-es |
 | Terms of Use (EN) | https://defalt0006.github.io/reflexrush-legal/#terms-en |
+| Eliminar mis datos (ES) | https://defalt0006.github.io/reflexrush-legal/#delete-es |
+| Delete my data (EN) | https://defalt0006.github.io/reflexrush-legal/#delete-en |
 
 La página detecta el idioma del navegador y permite cambiarlo manualmente.
 
 ## Archivos
 
-- `index.html` — la página publicada (los cuatro documentos en uno, sin dependencias externas).
+- `index.html` — la página publicada (los seis documentos en uno, sin dependencias externas).
 - `PrivacyPolicy.md` / `PrivacyPolicy.en.md` — texto completo de la política.
 - `TermsOfUse.md` / `TermsOfUse.en.md` — texto completo de los términos.
+- `DataDeletion.md` / `DataDeletion.en.md` — procedimiento de eliminación de cuenta y datos.
 
 ## Cómo actualizar
 

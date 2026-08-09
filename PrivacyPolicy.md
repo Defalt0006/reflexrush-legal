@@ -76,7 +76,7 @@ Tienes derecho a: acceso, rectificación, supresión, limitación, portabilidad,
 Tienes derecho a conocer, eliminar y corregir tu información personal, y a optar por no participar en su "venta" o "compartición". **No vendemos** información personal. No te discriminaremos por ejercer tus derechos.
 
 ### 8.3 Cómo ejercerlos
-Escríbenos a **mictlanstudio.support@gmail.com** indicando tu **identificador de jugador**. Para borrar tu progreso en la nube, solicítalo por ese medio; para borrar datos locales, desinstala la App o borra sus datos desde *Ajustes → Aplicaciones → Reflex Rush*.
+Escríbenos a **mictlanstudio.support@gmail.com** indicando tu **identificador de jugador**. Para borrar tu progreso en la nube, solicítalo por ese medio; para borrar datos locales, desinstala la App o borra sus datos desde *Ajustes → Aplicaciones → Reflex Rush*. El procedimiento completo de eliminación de cuenta —qué se borra, qué se conserva y en qué plazos— está en **[Eliminar tu cuenta y tus datos](https://defalt0006.github.io/reflexrush-legal/#delete-es)** (`DataDeletion.md`).
 
 ## 9. Menores
 Reflex Rush está dirigido a personas de **13 años en adelante** y no está dirigido a niños menores de 13. No recopilamos a sabiendas información personal de menores de 13 (o de la edad mínima aplicable en tu país). Si crees que un menor nos proporcionó datos, contáctanos para eliminarlos.

@@ -76,7 +76,7 @@ You have the right to: access, rectification, erasure, restriction, portability,
 You have the right to know, delete, and correct your personal information, and to opt out of its "sale" or "sharing." **We do not sell** personal information. We will not discriminate against you for exercising your rights.
 
 ### 8.3 How to exercise them
-Email us at **mictlanstudio.support@gmail.com** including your **player ID**. To delete your cloud progress, request it through that channel; to delete local data, uninstall the App or clear its data from *Settings → Apps → Reflex Rush*.
+Email us at **mictlanstudio.support@gmail.com** including your **player ID**. To delete your cloud progress, request it through that channel; to delete local data, uninstall the App or clear its data from *Settings → Apps → Reflex Rush*. The full account deletion procedure —what is deleted, what is retained, and within what timelines— is set out in **[Delete your account and data](https://defalt0006.github.io/reflexrush-legal/#delete-en)** (`DataDeletion.en.md`).
 
 ## 9. Children
 Reflex Rush is intended for people **aged 13 and over** and is not directed to children under 13. We do not knowingly collect personal information from children under 13 (or the minimum age applicable in your country). If you believe a child provided us data, contact us to delete it.

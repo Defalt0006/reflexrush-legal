@@ -20,7 +20,8 @@
   .switch button[aria-pressed="true"]{ background:var(--accent); color:#1a1300; border-color:var(--accent); }
   .tabs{ display:flex; gap:8px; margin:0 0 14px; }
   .tabs button{ flex:1; background:#16202f; color:#cdd6e4; border:1px solid #26344a; border-radius:10px 10px 0 0;
-                padding:12px; font-size:15px; font-weight:700; cursor:pointer; }
+                padding:12px 8px; font-size:15px; font-weight:700; cursor:pointer; line-height:1.25; }
+  @media (max-width:560px){ .tabs button{ font-size:13px; padding:10px 6px; } }
   .tabs button[aria-selected="true"]{ background:var(--card); color:var(--ink); border-color:var(--line); border-bottom-color:var(--card); }
   .card{ background:var(--card); border:1px solid var(--line); border-radius:0 0 14px 14px; padding:26px 24px; }
   article{ display:none; }
@@ -53,6 +54,7 @@
   <div class="tabs" role="tablist">
     <button data-doc="privacy" aria-selected="true" data-es="Política de Privacidad" data-en="Privacy Policy">Política de Privacidad</button>
     <button data-doc="terms" aria-selected="false" data-es="Términos de Uso" data-en="Terms of Use">Términos de Uso</button>
+    <button data-doc="delete" aria-selected="false" data-es="Eliminar mis datos" data-en="Delete my data">Eliminar mis datos</button>
   </div>
 
   <div class="card">
@@ -281,6 +283,76 @@
       <p><a href="mailto:mictlanstudio.support@gmail.com">mictlanstudio.support@gmail.com</a></p>
     </article>
 
+    <!-- ===================== BORRADO DE DATOS · ES ===================== -->
+    <article data-doc="delete" data-lang="es">
+      <h1>Eliminar tu cuenta y tus datos</h1>
+      <p class="meta">Reflex Rush · Mictlan Studio · <a href="mailto:mictlanstudio.support@gmail.com">mictlanstudio.support@gmail.com</a></p>
+      <p>Puedes pedir en cualquier momento que eliminemos tu cuenta de Reflex Rush y los datos asociados. No necesitas tener la app instalada.</p>
+
+      <h2>1. Cómo solicitarlo</h2>
+      <p>Envía un correo a <a href="mailto:mictlanstudio.support@gmail.com?subject=Eliminar%20mi%20cuenta%20de%20Reflex%20Rush">mictlanstudio.support@gmail.com</a> con el asunto <strong>"Eliminar mi cuenta"</strong> e incluye:</p>
+      <ul>
+        <li>Tu <strong>nombre de jugador</strong>, o</li>
+        <li>Tu <strong>identificador de jugador</strong>, que aparece en la pantalla de <em>Perfil</em> dentro de la app.</li>
+      </ul>
+      <p class="note">Sin el nombre o el identificador de jugador no podemos localizar tu cuenta, porque el registro es anónimo: no guardamos tu correo asociado a tu progreso.</p>
+
+      <h2>2. Qué se elimina</h2>
+      <ul>
+        <li>Tu perfil y tu progreso en la nube: monedas, boosts, revivir, cofres, skins, fondos, avatares, logros, desafíos y estadísticas.</li>
+        <li>Tu nombre de jugador y tus entradas en las clasificaciones y en la lista de amigos.</li>
+        <li>El vínculo con tu cuenta de acceso (usuario y contraseña, o Google Play Games).</li>
+      </ul>
+
+      <h2>3. Qué se conserva y por cuánto tiempo</h2>
+      <ul>
+        <li><strong>Registros de compras</strong>: se conservan el tiempo que exigen las obligaciones fiscales y contables, y para atender disputas de pago. No se pueden borrar a petición.</li>
+        <li><strong>Correos de soporte</strong>: hasta 12 meses, para dar seguimiento a tu caso.</li>
+        <li><strong>Datos en tu dispositivo</strong>: los borras tú desinstalando la App o desde <em>Ajustes → Aplicaciones → Reflex Rush → Borrar datos</em>.</li>
+      </ul>
+
+      <h2>4. Plazos</h2>
+      <p>Confirmamos la recepción en un máximo de <strong>7 días</strong> y completamos el borrado en un máximo de <strong>30 días</strong> desde que verificamos la solicitud.</p>
+
+      <h2>5. Ten en cuenta</h2>
+      <p>La eliminación es <strong>permanente e irreversible</strong>. Se pierde todo el progreso y el contenido comprado o desbloqueado; no es posible restaurarlo ni transferirlo, y las compras ya realizadas no son reembolsables por este motivo. Si vuelves a jugar, empezarás desde cero.</p>
+    </article>
+
+    <!-- ===================== BORRADO DE DATOS · EN ===================== -->
+    <article data-doc="delete" data-lang="en">
+      <h1>Delete your account and data</h1>
+      <p class="meta">Reflex Rush · Mictlan Studio · <a href="mailto:mictlanstudio.support@gmail.com">mictlanstudio.support@gmail.com</a></p>
+      <p>You may ask us at any time to delete your Reflex Rush account and its associated data. You do not need to have the app installed.</p>
+
+      <h2>1. How to request it</h2>
+      <p>Email <a href="mailto:mictlanstudio.support@gmail.com?subject=Delete%20my%20Reflex%20Rush%20account">mictlanstudio.support@gmail.com</a> with the subject <strong>"Delete my account"</strong> and include:</p>
+      <ul>
+        <li>Your <strong>player name</strong>, or</li>
+        <li>Your <strong>player ID</strong>, shown on the <em>Profile</em> screen inside the app.</li>
+      </ul>
+      <p class="note">Without your player name or player ID we cannot locate your account, because sign-up is anonymous: we do not store your email address alongside your progress.</p>
+
+      <h2>2. What is deleted</h2>
+      <ul>
+        <li>Your profile and cloud progress: coins, boosts, revives, chests, skins, backgrounds, avatars, achievements, challenges, and statistics.</li>
+        <li>Your player name and your entries on leaderboards and in the friends list.</li>
+        <li>The link to your sign-in account (username and password, or Google Play Games).</li>
+      </ul>
+
+      <h2>3. What is retained, and for how long</h2>
+      <ul>
+        <li><strong>Purchase records</strong>: retained for as long as tax and accounting obligations require, and to handle payment disputes. These cannot be deleted on request.</li>
+        <li><strong>Support emails</strong>: up to 12 months, to follow up on your case.</li>
+        <li><strong>Data on your device</strong>: you delete it yourself by uninstalling the App or via <em>Settings → Apps → Reflex Rush → Clear data</em>.</li>
+      </ul>
+
+      <h2>4. Timelines</h2>
+      <p>We acknowledge your request within <strong>7 days</strong> and complete the deletion within <strong>30 days</strong> of verifying it.</p>
+
+      <h2>5. Please note</h2>
+      <p>Deletion is <strong>permanent and irreversible</strong>. All progress and purchased or unlocked content is lost; it cannot be restored or transferred, and purchases already made are not refundable on this basis. If you play again, you will start from scratch.</p>
+    </article>
+
   </div>
 
   <footer>© <span id="yr">2026</span> Mictlan Studio · Reflex Rush · <a href="mailto:mictlanstudio.support@gmail.com">mictlanstudio.support@gmail.com</a></footer>
@@ -288,14 +360,16 @@
 
 <script>
 (function(){
-  // El hash permite enlazar directo a un documento/idioma: #terms, #en, #terms-en
+  // El hash permite enlazar directo a un documento/idioma: #terms, #en, #delete-en
   var hash = (location.hash || "").toLowerCase();
 
   var lang = /\ben\b/.test(hash) ? "en"
            : /\bes\b/.test(hash) ? "es"
            : (localStorage.getItem("rr_lang") || (navigator.language||"es").slice(0,2));
   if(lang !== "en") lang = "es";
-  var doc = hash.indexOf("terms") >= 0 ? "terms" : "privacy";
+  var doc = hash.indexOf("terms") >= 0 ? "terms"
+          : hash.indexOf("delete") >= 0 ? "delete"
+          : "privacy";
 
   document.getElementById("yr").textContent = new Date().getFullYear();
 
