@@ -21,7 +21,7 @@ Al descargar o usar Reflex Rush aceptas las prácticas descritas en esta Políti
 - **Comunicaciones de soporte:** si nos contactas, recibimos tu dirección de correo, tu identificador de jugador y el contenido de tu mensaje.
 
 ### 1.2 Información recopilada automáticamente
-- **Identificador de jugador anónimo:** generado por Unity Gaming Services para guardar tu progreso. No revela tu identidad real.
+- **Identificador de jugador anónimo:** sirve para guardar tu progreso y para identificarte en clasificaciones y en la función de amigos. No revela tu identidad real. También se envía a nuestro proveedor de publicidad para atribuir correctamente los anuncios con recompensa que eliges ver.
 - **Identificador de publicidad:** el Advertising ID de Android, usado por nuestros proveedores de publicidad para mostrar y medir anuncios.
 - **Datos del dispositivo y técnicos:** modelo, sistema operativo, idioma, identificadores técnicos y datos de diagnóstico/rendimiento.
 - **Datos de uso y de juego:** progreso (monedas, boosts, revivir, cofres, skins y fondos), logros, desafíos, estadísticas, puntajes, eventos de interacción con anuncios y registros internos de transacciones.
