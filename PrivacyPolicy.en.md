@@ -1,8 +1,8 @@
 <!-- English version. Spanish version: PrivacyPolicy.md -->
 # Reflex Rush Privacy Policy
 
-**Last updated:** August 9, 2026
-**Effective date:** August 9, 2026
+**Last updated:** October 2, 2026
+**Effective date:** October 2, 2026
 
 Mictlan Studio ("Mictlan Studio", "we", "us") operates the mobile application **Reflex Rush** (the "App"; package ID `com.mictlanstudio.reflexrush`). This Privacy Policy explains how we collect, use, share, and protect information when you use the App, and the rights available to you.
 
@@ -12,13 +12,17 @@ Mictlan Studio ("Mictlan Studio", "we", "us") operates the mobile application **
 
 By downloading or using Reflex Rush you accept the practices described in this Policy. If you do not agree, do not use the App.
 
-> Note for legal reviewer: the App uses Unity Gaming Services (anonymous authentication, Cloud Save, Leaderboards, Cloud Code, and Friends), advertising through Unity LevelPlay / ironSource, and in-app purchases through Google Play Billing. Target audience is 13+.
+> Note for legal reviewer: the App uses Unity Gaming Services (anonymous authentication and optional accounts with Google Play Games or Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code, and Friends), advertising through Unity LevelPlay / ironSource, and in-app purchases through Google Play Billing. Target audience is 13+.
 
 ## 1. Information we collect
 
 ### 1.1 Information you provide
 - **Player name (optional):** a nickname you choose (max 14 characters). It is visible to other players on leaderboards and in the friends feature.
 - **Support communications:** if you contact us, we receive your email address, your player ID, and the content of your message.
+- **Account (optional):** you can play without an account, as a guest. If you want to keep your progress when you switch phones, you can link one of these options:
+  - **Google Play Games:** Google handles sign-in. We receive your Google Play Games identifier and the name you display on that service.
+  - **Email account (Unity Player Accounts):** the account, your email address, and your password are managed by Unity, which verifies your email with a code before activating it and lets you recover your password. **We do not receive your password.** We receive confirmation that your email is verified, and on your device we store only a partial version (for example, `bo***@gmail.com`) to show you which account you are signed in with; that partial version never leaves your device.
+  - **Username and password (existing accounts only):** accounts created this way before October 2, 2026 can still sign in, but new ones can no longer be created. Unity stores the username and password; we do not know your password.
 
 ### 1.2 Information collected automatically
 - **Anonymous player ID:** used to save your progress and to identify you on leaderboards and in the friends feature. It does not reveal your real identity. It is also sent to our advertising provider so that the rewarded ads you choose to watch are credited correctly.
@@ -50,8 +54,8 @@ We use information for the following purposes (legal bases apply to EEA/UK users
 ## 3. Third-party services (providers and SDKs)
 We share information, as necessary, with the following providers, each with its own privacy policy:
 
-- **Unity Technologies** — Unity Gaming Services (authentication, Cloud Save, Leaderboards, Cloud Code, Friends, Analytics) and advertising (Unity LevelPlay / ironSource): https://unity.com/legal/privacy-policy and https://unity.com/legal/game-player-and-app-user-privacy-policy
-- **Google LLC** — Google Play (distribution and payments) and Android services: https://policies.google.com/privacy
+- **Unity Technologies** — Unity Gaming Services (authentication, email accounts through Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code, Friends, Analytics) and advertising (Unity LevelPlay / ironSource): https://unity.com/legal/privacy-policy and https://unity.com/legal/game-player-and-app-user-privacy-policy
+- **Google LLC** — Google Play (distribution and payments), Google Play Games (optional sign-in), and Android services: https://policies.google.com/privacy
 
 These providers act as processors or independent controllers depending on the service. We do not list every third-party ad network mediated by LevelPlay; see the Unity Ads policy for detail.
 
@@ -76,7 +80,7 @@ You have the right to: access, rectification, erasure, restriction, portability,
 You have the right to know, delete, and correct your personal information, and to opt out of its "sale" or "sharing." **We do not sell** personal information. We will not discriminate against you for exercising your rights.
 
 ### 8.3 How to exercise them
-Email us at **mictlanstudio.support@gmail.com** including your **player ID**. To delete your cloud progress, request it through that channel; to delete local data, uninstall the App or clear its data from *Settings → Apps → Reflex Rush*. The full account deletion procedure —what is deleted, what is retained, and within what timelines— is set out in **[Delete your account and data](https://defalt0006.github.io/reflexrush-legal/#delete-en)** (`DataDeletion.en.md`).
+Email us at **mictlanstudio.support@gmail.com** including your **player ID**. To delete your cloud progress, request it through that channel; to delete local data, uninstall the App or clear its data from *Settings → Apps → Reflex Rush*. The full account deletion procedure —what is deleted, what is retained, and within what timelines— is set out in **[Delete your account and data](https://defalt0006.github.io/reflexrush-legal/#delete-en)** (`DataDeletion.en.md`). If you created an **email account**, the Unity account itself is managed by Unity: you can manage or delete it from your Unity account, under Unity's privacy policy.
 
 ## 9. Children
 Reflex Rush is intended for people **aged 13 and over** and is not directed to children under 13. We do not knowingly collect personal information from children under 13 (or the minimum age applicable in your country). If you believe a child provided us data, contact us to delete it.

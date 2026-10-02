@@ -1,7 +1,7 @@
 <!-- Versión en español. English version: TermsOfUse.en.md -->
 # Términos de Uso de Reflex Rush
 
-**Última actualización:** 9 de agosto de 2026
+**Última actualización:** 2 de octubre de 2026
 **Vigente desde:** 9 de agosto de 2026
 
 Estos Términos de Uso ("Términos") constituyen un acuerdo legal entre tú y **Mictlan Studio** ("nosotros") respecto de la aplicación **Reflex Rush** (la "App"; `com.mictlanstudio.reflexrush`). Al descargar, acceder o usar la App aceptas estos Términos. Si no estás de acuerdo, no uses la App.
@@ -18,7 +18,7 @@ Debes tener al menos **13 años** (o la mayoría de edad digital aplicable en tu
 Te otorgamos una licencia **limitada, personal, no exclusiva, intransferible y revocable** para usar la App con fines de entretenimiento personal y no comercial, conforme a estos Términos.
 
 ## 3. Cuenta e identidad
-Juegas mediante una identidad anónima gestionada por Unity Gaming Services. Eres responsable de la actividad realizada desde tu dispositivo. Las funciones sociales (clasificaciones y amigos) muestran el nombre de jugador que elijas.
+Puedes jugar como invitado, con una identidad anónima gestionada por Unity Gaming Services, o vincular una cuenta —Google Play Games o una cuenta con correo de Unity— para conservar tu progreso entre dispositivos. Eres responsable de la actividad realizada desde tu dispositivo y de mantener seguras tus credenciales. **Si juegas como invitado y desinstalas la App o cambias de dispositivo sin haber vinculado una cuenta, tu progreso no se puede recuperar.** Las funciones sociales (clasificaciones y amigos) muestran el nombre de jugador que elijas.
 
 ## 4. Artículos y moneda virtual
 Las monedas, boosts, revivir, cofres, skins y fondos son **contenido virtual con licencia de uso dentro de la App** y **no tienen valor monetario en el mundo real**. No son de tu propiedad, no son transferibles ni canjeables por dinero, y no pueden venderse ni intercambiarse fuera de la App. Podemos otorgar, ajustar, retirar o expirar contenido virtual por razones de operación, balance, seguridad o cumplimiento legal.

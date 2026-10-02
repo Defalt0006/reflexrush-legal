@@ -1,8 +1,8 @@
 <!-- Versión en español. English version: PrivacyPolicy.en.md -->
 # Política de Privacidad de Reflex Rush
 
-**Última actualización:** 9 de agosto de 2026
-**Vigente desde:** 9 de agosto de 2026
+**Última actualización:** 2 de octubre de 2026
+**Vigente desde:** 2 de octubre de 2026
 
 Mictlan Studio ("Mictlan Studio", "nosotros") opera la aplicación móvil **Reflex Rush** (la "App"; ID de paquete `com.mictlanstudio.reflexrush`). Esta Política de Privacidad describe cómo recopilamos, usamos, compartimos y protegemos la información cuando usas la App, así como los derechos que te corresponden.
 
@@ -12,13 +12,17 @@ Mictlan Studio ("Mictlan Studio", "nosotros") opera la aplicación móvil **Refl
 
 Al descargar o usar Reflex Rush aceptas las prácticas descritas en esta Política. Si no estás de acuerdo, no uses la App.
 
-> Nota para el revisor legal: la App utiliza Unity Gaming Services (autenticación anónima, Cloud Save, Leaderboards, Cloud Code y Friends), publicidad mediante Unity LevelPlay / ironSource, y compras dentro de la app mediante Google Play Billing. El público objetivo es 13+.
+> Nota para el revisor legal: la App utiliza Unity Gaming Services (autenticación anónima y cuentas opcionales con Google Play Games o Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code y Friends), publicidad mediante Unity LevelPlay / ironSource, y compras dentro de la app mediante Google Play Billing. El público objetivo es 13+.
 
 ## 1. Información que recopilamos
 
 ### 1.1 Información que tú nos proporcionas
 - **Nombre de jugador (opcional):** un alias que tú eliges (máx. 14 caracteres). Es visible para otros jugadores en clasificaciones y en la función de amigos.
 - **Comunicaciones de soporte:** si nos contactas, recibimos tu dirección de correo, tu identificador de jugador y el contenido de tu mensaje.
+- **Cuenta (opcional):** puedes jugar sin cuenta, como invitado. Si quieres conservar tu progreso al cambiar de teléfono, puedes vincular una de estas opciones:
+  - **Google Play Games:** Google gestiona el inicio de sesión. Recibimos tu identificador de Google Play Games y el nombre que muestras en ese servicio.
+  - **Cuenta con correo (Unity Player Accounts):** la cuenta, tu dirección de correo y tu contraseña las gestiona Unity, que verifica el correo con un código antes de activarla y te permite recuperar la contraseña. **No recibimos tu contraseña.** Recibimos la confirmación de que tu correo está verificado, y en tu dispositivo guardamos solo una versión parcial (por ejemplo, `bo***@gmail.com`) para mostrarte con qué cuenta iniciaste sesión; esa versión parcial no sale de tu dispositivo.
+  - **Usuario y contraseña (solo cuentas existentes):** las cuentas creadas así antes del 2 de octubre de 2026 pueden seguir iniciando sesión, pero ya no se pueden crear nuevas. Unity guarda el usuario y la contraseña; nosotros no conocemos tu contraseña.
 
 ### 1.2 Información recopilada automáticamente
 - **Identificador de jugador anónimo:** sirve para guardar tu progreso y para identificarte en clasificaciones y en la función de amigos. No revela tu identidad real. También se envía a nuestro proveedor de publicidad para atribuir correctamente los anuncios con recompensa que eliges ver.
@@ -50,8 +54,8 @@ Usamos la información para los siguientes fines (las bases legales aplican a us
 ## 3. Servicios de terceros (proveedores y SDK)
 Compartimos información, según sea necesario, con los siguientes proveedores, cada uno con su propia política de privacidad:
 
-- **Unity Technologies** — Unity Gaming Services (autenticación, Cloud Save, Leaderboards, Cloud Code, Friends, Analytics) y publicidad (Unity LevelPlay / ironSource): https://unity.com/legal/privacy-policy y https://unity.com/legal/game-player-and-app-user-privacy-policy
-- **Google LLC** — Google Play (distribución y pagos) y servicios de Android: https://policies.google.com/privacy
+- **Unity Technologies** — Unity Gaming Services (autenticación, cuentas con correo mediante Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code, Friends, Analytics) y publicidad (Unity LevelPlay / ironSource): https://unity.com/legal/privacy-policy y https://unity.com/legal/game-player-and-app-user-privacy-policy
+- **Google LLC** — Google Play (distribución y pagos), Google Play Games (inicio de sesión opcional) y servicios de Android: https://policies.google.com/privacy
 
 Estos proveedores actúan como encargados o responsables independientes según el servicio. No incluimos una lista exhaustiva de redes de publicidad de terceros mediadas por LevelPlay; consulta la política de Unity Ads para más detalle.
 
@@ -76,7 +80,7 @@ Tienes derecho a: acceso, rectificación, supresión, limitación, portabilidad,
 Tienes derecho a conocer, eliminar y corregir tu información personal, y a optar por no participar en su "venta" o "compartición". **No vendemos** información personal. No te discriminaremos por ejercer tus derechos.
 
 ### 8.3 Cómo ejercerlos
-Escríbenos a **mictlanstudio.support@gmail.com** indicando tu **identificador de jugador**. Para borrar tu progreso en la nube, solicítalo por ese medio; para borrar datos locales, desinstala la App o borra sus datos desde *Ajustes → Aplicaciones → Reflex Rush*. El procedimiento completo de eliminación de cuenta —qué se borra, qué se conserva y en qué plazos— está en **[Eliminar tu cuenta y tus datos](https://defalt0006.github.io/reflexrush-legal/#delete-es)** (`DataDeletion.md`).
+Escríbenos a **mictlanstudio.support@gmail.com** indicando tu **identificador de jugador**. Para borrar tu progreso en la nube, solicítalo por ese medio; para borrar datos locales, desinstala la App o borra sus datos desde *Ajustes → Aplicaciones → Reflex Rush*. El procedimiento completo de eliminación de cuenta —qué se borra, qué se conserva y en qué plazos— está en **[Eliminar tu cuenta y tus datos](https://defalt0006.github.io/reflexrush-legal/#delete-es)** (`DataDeletion.md`). Si creaste una **cuenta con correo**, la cuenta de Unity en sí la administra Unity: puedes gestionarla o eliminarla desde tu cuenta de Unity, conforme a su política de privacidad.
 
 ## 9. Menores
 Reflex Rush está dirigido a personas de **13 años en adelante** y no está dirigido a niños menores de 13. No recopilamos a sabiendas información personal de menores de 13 (o de la edad mínima aplicable en tu país). Si crees que un menor nos proporcionó datos, contáctanos para eliminarlos.

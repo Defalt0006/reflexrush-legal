@@ -1,7 +1,7 @@
 <!-- English version. Spanish version: TermsOfUse.md -->
 # Reflex Rush Terms of Use
 
-**Last updated:** August 9, 2026
+**Last updated:** October 2, 2026
 **Effective date:** August 9, 2026
 
 These Terms of Use ("Terms") are a legal agreement between you and **Mictlan Studio** ("we", "us") regarding the **Reflex Rush** application (the "App"; `com.mictlanstudio.reflexrush`). By downloading, accessing, or using the App you accept these Terms. If you do not agree, do not use the App.
@@ -18,7 +18,7 @@ You must be at least **13 years old** (or the applicable digital age of consent 
 We grant you a **limited, personal, non-exclusive, non-transferable, and revocable** license to use the App for personal, non-commercial entertainment, in accordance with these Terms.
 
 ## 3. Account and identity
-You play through an anonymous identity managed by Unity Gaming Services. You are responsible for activity carried out from your device. Social features (leaderboards and friends) display the player name you choose.
+You can play as a guest, with an anonymous identity managed by Unity Gaming Services, or link an account —Google Play Games or a Unity email account— to keep your progress across devices. You are responsible for activity carried out from your device and for keeping your credentials secure. **If you play as a guest and uninstall the App or switch devices without having linked an account, your progress cannot be recovered.** Social features (leaderboards and friends) display the player name you choose.
 
 ## 4. Virtual items and currency
 Coins, boosts, revives, chests, skins, and backgrounds are **virtual content licensed for use within the App** and have **no real-world monetary value**. You do not own them, they are not transferable or redeemable for money, and they may not be sold or exchanged outside the App. We may grant, adjust, withdraw, or expire virtual content for reasons of operation, balance, security, or legal compliance.
