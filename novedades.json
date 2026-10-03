@@ -1,0 +1,16 @@
+{
+  "avisos": [
+    {
+      "id": "version-49",
+      "version": 49,
+      "titulo": {
+        "es": "Novedades de la versión 1.2.0",
+        "en": "What's new in version 1.2.0"
+      },
+      "texto": {
+        "es": "- ¡El juego ya tiene música! Una para el menú y dos que se turnan durante la partida.\n- Los boosts que eliges ahora caen como lluvia durante la partida: tócalos para usarlos.\n- Revivir da más tiempo: 15 segundos la primera vez, y un poco menos cada vez que vuelves a revivir.\n- El tiempo restante ahora tiene un tope de 1:30.\n- Tutorial nuevo para quien empieza, con el logro Aprendiz.\n- Ya puedes guardar tu progreso con una cuenta de correo.\n- Créditos en Opciones. ¡Gracias a Misasa21 por la música y la inspiración para el juego!\n- Y varios arreglos.\n\n<b>Para los testers:</b> pueden mandar su retroalimentación a mictlanstudio.support@gmail.com o a botmanploxx@gmail.com. ¡Gracias por jugar y por cada comentario!\nMuy pronto habrá recompensas exclusivas para testers: escríbenos desde Perfil > Soporte para apartar la tuya.",
+        "en": "- The game has music now! One track for the menu and two that take turns during each run.\n- The boosts you pick now fall like rain during the run: tap them to use them.\n- Reviving gives you more time: 15 seconds the first time, and a little less with each revive.\n- Your remaining time now caps at 1:30.\n- New tutorial for new players, with the Apprentice achievement.\n- You can now save your progress with an email account.\n- Credits are in Options. Thanks to Misasa21 for the music and the inspiration for the game!\n- Plus several fixes.\n\n<b>For testers:</b> you can send your feedback to mictlanstudio.support@gmail.com or botmanploxx@gmail.com. Thanks for playing and for every comment!\nExclusive rewards for testers are coming soon: write to us from Profile > Support to claim yours."
+      }
+    }
+  ]
+}

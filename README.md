@@ -26,6 +26,17 @@ La página detecta el idioma del navegador y permite cambiarlo manualmente.
 - `TermsOfUse.md` / `TermsOfUse.en.md` — texto completo de los términos.
 - `DataDeletion.md` / `DataDeletion.en.md` — procedimiento de eliminación de cuenta y datos.
 
+## Archivos que lee el juego
+
+El juego consulta dos archivos de esta página al abrirse. Si no hay internet o alguno viene mal, se juega normal.
+
+- `version.json` — versión mínima (`minVersionCode`). Si la instalada es menor, el juego pide actualizar. En `0` está desactivado.
+- `novedades.json` — el recuadro de novedades que sale **una sola vez** por aviso dentro del juego. Cada aviso lleva `id` (único), `titulo` y `texto` en `es`/`en`, y opcionalmente:
+  - `version`: el versionCode al que corresponden unas notas de parche. Solo las ve quien actualizó desde una versión anterior.
+  - `desde` / `hasta`: fechas `aaaa-mm-dd` entre las que sale el aviso.
+
+  Sale uno por sesión como mucho, en el orden del archivo. Los correos del texto se pueden tocar en el juego. No uses la viñeta "•": la fuente del juego no la trae.
+
 ## Cómo actualizar
 
 Estos archivos son copia de `Docs/legal/` del repositorio privado del juego. Al cambiar los documentos ahí, copia los archivos aquí, ajusta la fecha de "Última actualización" y haz `git push`: GitHub Pages republica solo.
