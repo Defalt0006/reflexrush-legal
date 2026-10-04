@@ -28,7 +28,7 @@ La página detecta el idioma del navegador y permite cambiarlo manualmente.
 
 ## Archivos que lee el juego
 
-El juego consulta dos archivos de esta página al abrirse. Si no hay internet o alguno viene mal, se juega normal.
+El juego consulta estos archivos de esta página al abrirse. Si no hay internet o alguno viene mal, se juega normal.
 
 - `version.json` — versión mínima (`minVersionCode`). Si la instalada es menor, el juego pide actualizar. En `0` está desactivado.
 - `novedades.json` — el recuadro de novedades que sale **una sola vez** por aviso dentro del juego. Cada aviso lleva `id` (único), `titulo` y `texto` en `es`/`en`, y opcionalmente:
@@ -37,6 +37,7 @@ El juego consulta dos archivos de esta página al abrirse. Si no hay internet o 
 
   Sale uno por sesión como mucho, en el orden del archivo. Los correos del texto se pueden tocar en el juego. No uses la viñeta "•": la fuente del juego no la trae.
 - `recompensas.json` — recompensas para testers. Cada entrada lleva una `huella` (SHA-256 de `"reflexrush-tester:"` + el ID del jugador; nunca el ID) y sus `premios`: `circulo`, `cuadrado`, `triangulo`, `fondo`. El juego calcula la huella de su propio ID, la busca, entrega lo que falte y da las gracias una sola vez.
+- `buzon.json` — el buzón de testers dentro del juego (desde la versión 1.3.0). `activo` lo enciende o lo apaga: apagado, el botón Buzón y la tarjeta que pregunta "¿Cómo va el juego?" no salen. `formulario` es la dirección `.../formResponse` del Formulario de Google donde caen los mensajes (el juego solo envía a direcciones de `https://docs.google.com/forms/`). `campos` dice qué pregunta del formulario (`entry.NNN`) recibe cada dato: `id`, `version`, `tipo`, `mensaje`, `idioma` y `dispositivo`. Si se borra o se vuelve a crear una pregunta del formulario, su número cambia y hay que actualizarlo aquí.
 
 ## Cómo actualizar
 
