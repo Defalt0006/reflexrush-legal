@@ -12,7 +12,7 @@ Mictlan Studio ("Mictlan Studio", "we", "us") operates the mobile application **
 
 By downloading or using Reflex Rush you accept the practices described in this Policy. If you do not agree, do not use the App.
 
-> Note for legal reviewer: the App uses Unity Gaming Services (anonymous authentication and optional accounts with Google Play Games or Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code, and Friends), advertising through Unity LevelPlay / ironSource, and in-app purchases through Google Play Billing. Target audience is 13+.
+> Note for legal reviewer: the App uses Unity Gaming Services (anonymous authentication and optional accounts with Google Play Games or Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code, and Friends), optional push notifications through Unity Push Notifications and Firebase Cloud Messaging, advertising through Unity LevelPlay / ironSource, and in-app purchases through Google Play Billing. Target audience is 13+.
 
 ## 1. Information we collect
 
@@ -32,7 +32,8 @@ By downloading or using Reflex Rush you accept the practices described in this P
 - **Advertising identifier:** the Android Advertising ID, used by our advertising providers to show and measure ads.
 - **Device and technical data:** model, operating system, language, technical identifiers, and diagnostic/performance data.
 - **Usage and gameplay data:** progress (coins, boosts, revives, chests, skins, and backgrounds), achievements, challenges, statistics, scores, ad interaction events, and internal transaction logs.
-- **Product analytics:** aggregated events about how the game is played (runs completed, score and combo reached, achievements claimed, chests opened, skins obtained, and purchase-flow steps). We use them to understand which parts of the game work and which need improvement. **They do not include your name, email, or the content of your messages**, and you can turn them off in **Settings → Usage data**.
+- **Product analytics:** events about how the game is played (runs completed, score and combo reached, achievements claimed, chests opened, skins obtained, and purchase-flow steps), linked to your player ID and to technical installation and device identifiers. We use them to understand which parts of the game work and which need improvement. **They do not include your name, email, or the content of your messages**, and you can turn them off in **Settings → Usage data**.
+- **Event alerts (optional):** if you agree to be notified when an event starts, your phone receives a notification identifier, which is sent to Unity so it can send you those alerts (they are delivered through Google's Firebase Cloud Messaging). We also record whether you opened an alert, to know whether they are useful. We ask you after the tutorial, and you can turn them off at any time in **Settings → Notifications** or in your Android settings. They work together with **Usage data**: if you turn it off, alerts stop.
 
 ### 1.3 Purchase information
 When you make an in-app purchase, **Google Play processes the payment**. **We do not receive your payment method or card details.** We receive a transaction confirmation (product identifier and purchase token) to deliver content, validate the purchase, and prevent fraud.
@@ -51,6 +52,7 @@ We use information for the following purposes (legal bases apply to EEA/UK users
 | Showing non-personalized ads, measurement, and fraud prevention | Legitimate interests |
 | Processing and validating purchases | Performance of a contract |
 | Product analytics: understanding how the game is played in order to improve it | Consent (can be turned off in Settings) |
+| Letting you know when an event starts (if you agree) | Consent |
 | Handling support and reading Mailbox messages to improve the game | Legitimate interests / consent |
 | Delivering tester rewards | Performance of a contract / legitimate interests |
 | Security, anti-cheat, and legal compliance | Legitimate interests / legal obligation |
@@ -58,8 +60,8 @@ We use information for the following purposes (legal bases apply to EEA/UK users
 ## 3. Third-party services (providers and SDKs)
 We share information, as necessary, with the following providers, each with its own privacy policy:
 
-- **Unity Technologies** — Unity Gaming Services (authentication, email accounts through Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code, Friends, Analytics) and advertising (Unity LevelPlay / ironSource): https://unity.com/legal/privacy-policy and https://unity.com/legal/game-player-and-app-user-privacy-policy
-- **Google LLC** — Google Play (distribution and payments), Google Play Games (optional sign-in), Google Forms and Google Sheets (where Mailbox messages are stored), and Android services: https://policies.google.com/privacy
+- **Unity Technologies** — Unity Gaming Services (authentication, email accounts through Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code, Friends, Analytics, and notifications) and advertising (Unity LevelPlay / ironSource): https://unity.com/legal/privacy-policy and https://unity.com/legal/game-player-and-app-user-privacy-policy
+- **Google LLC** — Google Play (distribution and payments), Google Play Games (optional sign-in), Google Forms and Google Sheets (where Mailbox messages are stored), Firebase Cloud Messaging (delivery of alerts), and Android services: https://policies.google.com/privacy
 
 These providers act as processors or independent controllers depending on the service. We do not list every third-party ad network mediated by LevelPlay; see the Unity Ads policy for detail.
 

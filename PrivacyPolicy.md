@@ -12,7 +12,7 @@ Mictlan Studio ("Mictlan Studio", "nosotros") opera la aplicación móvil **Refl
 
 Al descargar o usar Reflex Rush aceptas las prácticas descritas en esta Política. Si no estás de acuerdo, no uses la App.
 
-> Nota para el revisor legal: la App utiliza Unity Gaming Services (autenticación anónima y cuentas opcionales con Google Play Games o Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code y Friends), publicidad mediante Unity LevelPlay / ironSource, y compras dentro de la app mediante Google Play Billing. El público objetivo es 13+.
+> Nota para el revisor legal: la App utiliza Unity Gaming Services (autenticación anónima y cuentas opcionales con Google Play Games o Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code y Friends), notificaciones push opcionales mediante Unity Push Notifications y Firebase Cloud Messaging, publicidad mediante Unity LevelPlay / ironSource, y compras dentro de la app mediante Google Play Billing. El público objetivo es 13+.
 
 ## 1. Información que recopilamos
 
@@ -32,7 +32,8 @@ Al descargar o usar Reflex Rush aceptas las prácticas descritas en esta Políti
 - **Identificador de publicidad:** el Advertising ID de Android, usado por nuestros proveedores de publicidad para mostrar y medir anuncios.
 - **Datos del dispositivo y técnicos:** modelo, sistema operativo, idioma, identificadores técnicos y datos de diagnóstico/rendimiento.
 - **Datos de uso y de juego:** progreso (monedas, boosts, revivir, cofres, skins y fondos), logros, desafíos, estadísticas, puntajes, eventos de interacción con anuncios y registros internos de transacciones.
-- **Analítica de producto:** eventos agregados sobre cómo se juega (partidas terminadas, puntaje y combo alcanzados, logros reclamados, cofres abiertos, skins obtenidas y pasos del proceso de compra). Sirven para entender qué partes del juego funcionan y cuáles mejorar. **No incluyen tu nombre, correo ni contenido de tus mensajes**, y puedes desactivarlos en **Opciones → Datos de uso**.
+- **Analítica de producto:** eventos sobre cómo se juega (partidas terminadas, puntaje y combo alcanzados, logros reclamados, cofres abiertos, skins obtenidas y pasos del proceso de compra), que van asociados a tu identificador de jugador y a identificadores técnicos de la instalación y del dispositivo. Sirven para entender qué partes del juego funcionan y cuáles mejorar. **No incluyen tu nombre, correo ni contenido de tus mensajes**, y puedes desactivarlos en **Opciones → Datos de uso**.
+- **Avisos de eventos (opcional):** si aceptas que te avisemos cuando empiece un evento, tu teléfono recibe un identificador para notificaciones, que se envía a Unity para poder mandarte los avisos (los entrega Firebase Cloud Messaging, de Google). También registramos si abriste un aviso, para saber si sirven. Te lo preguntamos después del tutorial y puedes apagarlos cuando quieras en **Opciones → Notificaciones** o en los Ajustes de Android. Funcionan junto con **Datos de uso**: si lo apagas, dejan de llegarte.
 
 ### 1.3 Información de compras
 Cuando realizas una compra dentro de la app, **Google Play procesa el pago**. **No recibimos los datos de tu método de pago ni de tu tarjeta.** Recibimos una confirmación de la transacción (identificador de producto y token de compra) para entregar el contenido, validar la compra y prevenir fraudes.
@@ -51,6 +52,7 @@ Usamos la información para los siguientes fines (las bases legales aplican a us
 | Mostrar anuncios no personalizados, medición y prevención de fraude | Interés legítimo |
 | Procesar y validar compras | Ejecución del contrato |
 | Analítica de producto: entender cómo se juega para mejorar el juego | Consentimiento (desactivable en Opciones) |
+| Avisarte cuando empieza un evento (si lo aceptas) | Consentimiento |
 | Atender soporte y leer los mensajes del Buzón para mejorar el juego | Interés legítimo / consentimiento |
 | Entregar recompensas a testers | Ejecución del contrato / interés legítimo |
 | Seguridad, prevención de trampas y cumplimiento legal | Interés legítimo / obligación legal |
@@ -58,8 +60,8 @@ Usamos la información para los siguientes fines (las bases legales aplican a us
 ## 3. Servicios de terceros (proveedores y SDK)
 Compartimos información, según sea necesario, con los siguientes proveedores, cada uno con su propia política de privacidad:
 
-- **Unity Technologies** — Unity Gaming Services (autenticación, cuentas con correo mediante Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code, Friends, Analytics) y publicidad (Unity LevelPlay / ironSource): https://unity.com/legal/privacy-policy y https://unity.com/legal/game-player-and-app-user-privacy-policy
-- **Google LLC** — Google Play (distribución y pagos), Google Play Games (inicio de sesión opcional), Google Forms y Hojas de cálculo de Google (donde se guardan los mensajes del Buzón) y servicios de Android: https://policies.google.com/privacy
+- **Unity Technologies** — Unity Gaming Services (autenticación, cuentas con correo mediante Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code, Friends, Analytics y notificaciones) y publicidad (Unity LevelPlay / ironSource): https://unity.com/legal/privacy-policy y https://unity.com/legal/game-player-and-app-user-privacy-policy
+- **Google LLC** — Google Play (distribución y pagos), Google Play Games (inicio de sesión opcional), Google Forms y Hojas de cálculo de Google (donde se guardan los mensajes del Buzón), Firebase Cloud Messaging (entrega de los avisos) y servicios de Android: https://policies.google.com/privacy
 
 Estos proveedores actúan como encargados o responsables independientes según el servicio. No incluimos una lista exhaustiva de redes de publicidad de terceros mediadas por LevelPlay; consulta la política de Unity Ads para más detalle.
 

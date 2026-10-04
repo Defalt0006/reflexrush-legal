@@ -81,7 +81,8 @@
         <li><strong>Identificador de publicidad</strong> de Android, para mostrar y medir anuncios.</li>
         <li><strong>Datos del dispositivo y técnicos</strong> (modelo, SO, idioma, diagnóstico/rendimiento).</li>
         <li><strong>Datos de uso y de juego</strong> (progreso, logros, desafíos, estadísticas, puntajes, interacción con anuncios).</li>
-        <li><strong>Analítica de producto</strong>: eventos agregados sobre cómo se juega (partidas terminadas, puntaje y combo, logros, cofres, skins y pasos de compra), para mejorar el juego. No incluyen tu nombre ni tu correo, y puedes desactivarlos en <em>Opciones → Datos de uso</em>.</li>
+        <li><strong>Analítica de producto</strong>: eventos sobre cómo se juega (partidas terminadas, puntaje y combo, logros, cofres, skins y pasos de compra), asociados a tu ID de jugador y a identificadores técnicos de la instalación y del dispositivo, para mejorar el juego. No incluyen tu nombre ni tu correo, y puedes desactivarlos en <em>Opciones → Datos de uso</em>.</li>
+        <li><strong>Avisos de eventos (opcional)</strong>: si aceptas que te avisemos cuando empiece un evento, tu teléfono recibe un identificador para notificaciones, que se envía a Unity para mandarte los avisos (los entrega Firebase Cloud Messaging, de Google). También registramos si abriste un aviso. Se apagan en <em>Opciones → Notificaciones</em> o en los Ajustes de Android, y dejan de llegar si apagas <em>Datos de uso</em>.</li>
       </ul>
       <h3>1.3 Compras</h3>
       <p>Google Play procesa el pago. <strong>No recibimos los datos de tu tarjeta.</strong> Recibimos una confirmación de la transacción para entregar el contenido, validar la compra y prevenir fraudes.</p>
@@ -95,6 +96,7 @@
         <tr><td>Anuncios no personalizados, medición y antifraude</td><td>Interés legítimo</td></tr>
         <tr><td>Procesar y validar compras</td><td>Ejecución del contrato</td></tr>
         <tr><td>Analítica de producto: entender cómo se juega para mejorar el juego</td><td>Consentimiento (desactivable en Opciones)</td></tr>
+        <tr><td>Avisarte cuando empieza un evento (si lo aceptas)</td><td>Consentimiento</td></tr>
         <tr><td>Soporte y mensajes del Buzón, para mejorar el juego</td><td>Interés legítimo / consentimiento</td></tr>
         <tr><td>Recompensas para testers</td><td>Contrato / interés legítimo</td></tr>
         <tr><td>Seguridad, antitrampas y cumplimiento legal</td><td>Interés legítimo / obligación legal</td></tr>
@@ -102,8 +104,8 @@
 
       <h2>3. Servicios de terceros</h2>
       <ul>
-        <li><strong>Unity Technologies</strong> — servicios de juego, cuentas con correo (Unity Player Accounts) y publicidad (LevelPlay/ironSource): <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a></li>
-        <li><strong>Google LLC</strong> — Google Play, pagos, Google Play Games (inicio de sesión opcional), Google Forms y Hojas de cálculo (mensajes del Buzón) y servicios de Android: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+        <li><strong>Unity Technologies</strong> — servicios de juego, cuentas con correo (Unity Player Accounts), notificaciones y publicidad (LevelPlay/ironSource): <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a></li>
+        <li><strong>Google LLC</strong> — Google Play, pagos, Google Play Games (inicio de sesión opcional), Google Forms y Hojas de cálculo (mensajes del Buzón), Firebase Cloud Messaging (entrega de los avisos) y servicios de Android: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
       </ul>
 
       <h2>4. Publicidad y consentimiento</h2>
@@ -158,7 +160,8 @@
         <li><strong>Advertising identifier</strong> (Android) to show and measure ads.</li>
         <li><strong>Device and technical data</strong> (model, OS, language, diagnostics/performance).</li>
         <li><strong>Usage and gameplay data</strong> (progress, achievements, challenges, stats, scores, ad interaction).</li>
-        <li><strong>Product analytics</strong>: aggregated events about how the game is played (runs completed, score and combo, achievements, chests, skins, and purchase-flow steps), used to improve the game. They do not include your name or email, and you can turn them off in <em>Settings → Usage data</em>.</li>
+        <li><strong>Product analytics</strong>: events about how the game is played (runs completed, score and combo, achievements, chests, skins, and purchase-flow steps), linked to your player ID and to technical installation and device identifiers, used to improve the game. They do not include your name or email, and you can turn them off in <em>Settings → Usage data</em>.</li>
+        <li><strong>Event alerts (optional)</strong>: if you agree to be notified when an event starts, your phone receives a notification identifier, which is sent to Unity to send you those alerts (delivered through Google's Firebase Cloud Messaging). We also record whether you opened an alert. Turn them off in <em>Settings → Notifications</em> or in your Android settings; they also stop if you turn off <em>Usage data</em>.</li>
       </ul>
       <h3>1.3 Purchases</h3>
       <p>Google Play processes the payment. <strong>We do not receive your card details.</strong> We receive a transaction confirmation to deliver content, validate the purchase, and prevent fraud.</p>
@@ -172,6 +175,7 @@
         <tr><td>Non-personalized ads, measurement, fraud prevention</td><td>Legitimate interests</td></tr>
         <tr><td>Processing and validating purchases</td><td>Performance of a contract</td></tr>
         <tr><td>Product analytics: understanding how the game is played in order to improve it</td><td>Consent (can be turned off in Settings)</td></tr>
+        <tr><td>Letting you know when an event starts (if you agree)</td><td>Consent</td></tr>
         <tr><td>Support and Mailbox messages, to improve the game</td><td>Legitimate interests / consent</td></tr>
         <tr><td>Tester rewards</td><td>Contract / legitimate interests</td></tr>
         <tr><td>Security, anti-cheat, legal compliance</td><td>Legitimate interests / legal obligation</td></tr>
@@ -179,8 +183,8 @@
 
       <h2>3. Third-party services</h2>
       <ul>
-        <li><strong>Unity Technologies</strong> — game services, email accounts (Unity Player Accounts), and advertising (LevelPlay/ironSource): <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a></li>
-        <li><strong>Google LLC</strong> — Google Play, payments, Google Play Games (optional sign-in), Google Forms and Google Sheets (Mailbox messages), and Android services: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+        <li><strong>Unity Technologies</strong> — game services, email accounts (Unity Player Accounts), notifications, and advertising (LevelPlay/ironSource): <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a></li>
+        <li><strong>Google LLC</strong> — Google Play, payments, Google Play Games (optional sign-in), Google Forms and Google Sheets (Mailbox messages), Firebase Cloud Messaging (delivery of alerts), and Android services: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
       </ul>
 
       <h2>4. Advertising and consent</h2>
