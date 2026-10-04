@@ -36,6 +36,7 @@ El juego consulta dos archivos de esta página al abrirse. Si no hay internet o 
   - `desde` / `hasta`: fechas `aaaa-mm-dd` entre las que sale el aviso.
 
   Sale uno por sesión como mucho, en el orden del archivo. Los correos del texto se pueden tocar en el juego. No uses la viñeta "•": la fuente del juego no la trae.
+- `recompensas.json` — recompensas para testers. Cada entrada lleva una `huella` (SHA-256 de `"reflexrush-tester:"` + el ID del jugador; nunca el ID) y sus `premios`: `circulo`, `cuadrado`, `triangulo`, `fondo`. El juego calcula la huella de su propio ID, la busca, entrega lo que falte y da las gracias una sola vez.
 
 ## Cómo actualizar
 
