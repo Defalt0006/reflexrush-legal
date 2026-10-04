@@ -55,6 +55,7 @@ El juego consulta estos archivos de esta página al abrirse. Si no hay internet 
     Al terminar el último camino la partida sigue, cada vez más rápida, hasta que se apagan las veladoras.
   - `fondo`: el id del fondo que se gana al completar todo el recorrido.
   - Opcionales: `acento` y `panel` (`#RRGGBB`), los colores de sus ventanas.
+  - La tabla de puntajes de cada evento es `event_` más su `id` con guion bajo (`dia-de-muertos-2026` → `event_dia_de_muertos_2026`). Por eso el `id` lleva el año: cada edición tiene su propia tabla. Hay que crearla en el servidor antes de que empiece el evento.
 
   Fuera de fechas o sin archivo, el botón de Eventos dice «Próximamente», y la pestaña de Eventos de la tabla de puntajes se queda cerrada. Cambiar fechas, textos o números no necesita sacar build; una skin u objeto nuevo sí.
 

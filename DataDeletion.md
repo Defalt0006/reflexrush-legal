@@ -1,7 +1,7 @@
 <!-- Versión en español. English version: DataDeletion.en.md -->
 # Eliminar tu cuenta y tus datos — Reflex Rush
 
-**Última actualización:** 9 de agosto de 2026
+**Última actualización:** 4 de octubre de 2026
 
 Puedes pedir en cualquier momento que eliminemos tu cuenta de **Reflex Rush** (`com.mictlanstudio.reflexrush`) y los datos asociados. No necesitas tener la app instalada.
 
@@ -18,7 +18,10 @@ Envía un correo a **mictlanstudio.support@gmail.com** con el asunto **"Eliminar
 
 - Tu perfil y tu progreso en la nube: monedas, boosts, revivir, cofres, skins, fondos, avatares, logros, desafíos y estadísticas.
 - Tu nombre de jugador y tus entradas en las clasificaciones y en la lista de amigos.
-- El vínculo con tu cuenta de acceso (usuario y contraseña, o Google Play Games).
+- El vínculo con tu cuenta de acceso (Google Play Games, cuenta con correo de Unity, o usuario y contraseña). La cuenta de Unity en sí la administra Unity: puedes eliminarla desde tu cuenta de Unity.
+- Tus mensajes del Buzón.
+- Si eras tester con recompensa, tu huella en la lista de recompensas.
+- Tu nombre en los créditos, si aparecías.
 
 ## 3. Qué se conserva y por cuánto tiempo
 

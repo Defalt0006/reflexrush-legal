@@ -1,8 +1,8 @@
 <!-- English version. Spanish version: PrivacyPolicy.md -->
 # Reflex Rush Privacy Policy
 
-**Last updated:** October 2, 2026
-**Effective date:** October 2, 2026
+**Last updated:** October 4, 2026
+**Effective date:** October 4, 2026
 
 Mictlan Studio ("Mictlan Studio", "we", "us") operates the mobile application **Reflex Rush** (the "App"; package ID `com.mictlanstudio.reflexrush`). This Privacy Policy explains how we collect, use, share, and protect information when you use the App, and the rights available to you.
 
@@ -17,8 +17,11 @@ By downloading or using Reflex Rush you accept the practices described in this P
 ## 1. Information we collect
 
 ### 1.1 Information you provide
-- **Player name (optional):** a nickname you choose (max 14 characters). It is visible to other players on leaderboards and in the friends feature.
+- **Player name (optional):** a nickname you choose (max 14 characters). It is visible to other players on leaderboards and in the friends feature. On leaderboards, other players can also see the background you have equipped.
 - **Support communications:** if you contact us, we receive your email address, your player ID, and the content of your message.
+- **In-game Mailbox (optional):** if you write to us from the game's Mailbox, we receive your message, the type you chose (feedback, idea, or problem), your player ID, the game version, the language, and your phone model; the Mailbox tells you this before sending. It does not ask for your name or email. Messages are stored in a Google Forms form and its Google Sheets spreadsheet, which only we can access.
+- **Tester rewards:** if you took part in the closed test and we give you a reward, we publish a cryptographic fingerprint (SHA-256 hash) of your player ID on our website so the game can deliver it. Your player ID cannot be derived from the fingerprint, and we do not publish your player ID, name, or email.
+- **Name in the credits (optional):** if you ask us to, we show the name you choose in the game's credits. We only add it with your permission and remove it whenever you ask.
 - **Account (optional):** you can play without an account, as a guest. If you want to keep your progress when you switch phones, you can link one of these options:
   - **Google Play Games:** Google handles sign-in. We receive your Google Play Games identifier and the name you display on that service.
   - **Email account (Unity Player Accounts):** the account, your email address, and your password are managed by Unity, which verifies your email with a code before activating it and lets you recover your password. **We do not receive your password.** We receive confirmation that your email is verified, and on your device we store only a partial version (for example, `bo***@gmail.com`) to show you which account you are signed in with; that partial version never leaves your device.
@@ -48,14 +51,15 @@ We use information for the following purposes (legal bases apply to EEA/UK users
 | Showing non-personalized ads, measurement, and fraud prevention | Legitimate interests |
 | Processing and validating purchases | Performance of a contract |
 | Product analytics: understanding how the game is played in order to improve it | Consent (can be turned off in Settings) |
-| Handling support | Legitimate interests / consent |
+| Handling support and reading Mailbox messages to improve the game | Legitimate interests / consent |
+| Delivering tester rewards | Performance of a contract / legitimate interests |
 | Security, anti-cheat, and legal compliance | Legitimate interests / legal obligation |
 
 ## 3. Third-party services (providers and SDKs)
 We share information, as necessary, with the following providers, each with its own privacy policy:
 
 - **Unity Technologies** — Unity Gaming Services (authentication, email accounts through Unity Player Accounts, Cloud Save, Leaderboards, Cloud Code, Friends, Analytics) and advertising (Unity LevelPlay / ironSource): https://unity.com/legal/privacy-policy and https://unity.com/legal/game-player-and-app-user-privacy-policy
-- **Google LLC** — Google Play (distribution and payments), Google Play Games (optional sign-in), and Android services: https://policies.google.com/privacy
+- **Google LLC** — Google Play (distribution and payments), Google Play Games (optional sign-in), Google Forms and Google Sheets (where Mailbox messages are stored), and Android services: https://policies.google.com/privacy
 
 These providers act as processors or independent controllers depending on the service. We do not list every third-party ad network mediated by LevelPlay; see the Unity Ads policy for detail.
 
@@ -69,7 +73,7 @@ We share information only: (a) with the providers listed in Section 3 to operate
 Your information may be processed in countries other than your own, including the United States and the European Union, where data protection may differ. Where applicable, our providers implement recognized transfer mechanisms (for example, standard contractual clauses).
 
 ## 7. Data retention
-We retain your cloud progress while your profile exists or until you request deletion. Local data remains on your device until you delete it. Support and transaction records are retained as long as necessary for the described purposes and to comply with legal obligations.
+We retain your cloud progress while your profile exists or until you request deletion. Local data remains on your device until you delete it. Mailbox messages are kept for up to 12 months, to review and follow up on them. Support and transaction records are retained as long as necessary for the described purposes and to comply with legal obligations.
 
 ## 8. Your rights
 
