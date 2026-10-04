@@ -46,8 +46,9 @@ El juego consulta estos archivos de esta página al abrirse. Si no hay internet 
   - `caminos`: el recorrido, en orden, que se juega en una sola partida y sin reloj. Cada camino lleva:
     - `id`;
     - `objeto`: lo que aparece dentro de las figuras (`veladora`, `cempasuchil` o `pan`);
-    - `figuras`: cuántas hay que tocar;
+    - `figuras`: cuántas figuras con el objeto hay que tocar;
     - `segundos`: cuánto dura cada figura antes de irse y apagar una veladora;
+    - `probabilidad`: de 0 a 1, qué tanto sale una figura con el objeto (si falta, 0.35). Nunca salen más de 4 seguidas sin él;
     - `skin`: lo que se gana al completarlo por primera vez (un id del catálogo que ya exista en el juego);
     - `titulo` en `es`/`en`.
 
