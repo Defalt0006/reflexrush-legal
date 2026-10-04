@@ -1,0 +1,23 @@
+{
+  "eventos": [
+    {
+      "id": "dia-de-muertos-2026",
+      "desde": "2026-10-31",
+      "hasta": "2026-11-07",
+      "boosts": false,
+      "titulo": {
+        "es": "Día de Muertos",
+        "en": "Day of the Dead"
+      },
+      "texto": {
+        "es": "Las figuras se visten de fiesta y el papel picado cuelga sobre tus partidas. Cumple las metas para ganar la Calabaza, la Catrina y el Xoloitzcuintle: solo se consiguen en este evento. Dicen que el Xoloitzcuintle conoce el camino.",
+        "en": "The shapes dress up for the celebration and papel picado hangs over your games. Complete the goals to win the Pumpkin, the Catrina and the Xoloitzcuintle: they can only be earned in this event. They say the Xoloitzcuintle knows the way."
+      },
+      "metas": [
+        { "id": "partidas", "tipo": "partidas", "meta": 3, "skin": "circle_event_calabaza" },
+        { "id": "figuras", "tipo": "figuras", "meta": 150, "skin": "triangle_event_xolo" },
+        { "id": "puntos", "tipo": "puntos", "meta": 800, "skin": "square_event_catrina" }
+      ]
+    }
+  ]
+}
