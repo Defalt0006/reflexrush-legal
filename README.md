@@ -42,10 +42,20 @@ El juego consulta estos archivos de esta página al abrirse. Si no hay internet 
   - `id` (único), `desde` y `hasta`: fechas `aaaa-mm-dd`, de día completo y con la hora del teléfono.
   - `boosts`: `false` es partida directa sin boosts; `true` pasa por la pantalla de antes de jugar.
   - `titulo` y `texto` en `es`/`en`.
-  - `metas`: cada una con `id`, `tipo` (`partidas`, `figuras` o `puntos`), el número `meta` y la `skin` que da (un id del catálogo que ya exista en el juego).
+  - `vidas`: con cuántas veladoras empieza la partida (si falta, 3).
+  - `caminos`: el recorrido, en orden, que se juega en una sola partida y sin reloj. Cada camino lleva:
+    - `id`;
+    - `objeto`: lo que aparece dentro de las figuras (`veladora`, `cempasuchil` o `pan`);
+    - `figuras`: cuántas hay que tocar;
+    - `segundos`: cuánto dura cada figura antes de irse y apagar una veladora;
+    - `skin`: lo que se gana al completarlo por primera vez (un id del catálogo que ya exista en el juego);
+    - `titulo` en `es`/`en`.
+
+    Al terminar el último camino la partida sigue, cada vez más rápida, hasta que se apagan las veladoras.
+  - `fondo`: el id del fondo que se gana al completar todo el recorrido.
   - Opcionales: `acento` y `panel` (`#RRGGBB`), los colores de sus ventanas.
 
-  Fuera de fechas o sin archivo, el botón de Eventos dice «Próximamente». Cambiar fechas, textos o números no necesita sacar build; una skin nueva sí.
+  Fuera de fechas o sin archivo, el botón de Eventos dice «Próximamente», y la pestaña de Eventos de la tabla de puntajes se queda cerrada. Cambiar fechas, textos o números no necesita sacar build; una skin u objeto nuevo sí.
 
 ## Cómo actualizar
 

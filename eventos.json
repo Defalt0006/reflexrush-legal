@@ -10,14 +10,37 @@
         "en": "Day of the Dead"
       },
       "texto": {
-        "es": "Las figuras se visten de fiesta y el papel picado cuelga sobre tus partidas. Cumple las metas para ganar la Calabaza, la Catrina y el Xoloitzcuintle: solo se consiguen en este evento. Dicen que el Xoloitzcuintle conoce el camino.",
-        "en": "The shapes dress up for the celebration and papel picado hangs over your games. Complete the goals to win the Pumpkin, the Catrina and the Xoloitzcuintle: they can only be earned in this event. They say the Xoloitzcuintle knows the way."
+        "es": "Arma el altar en una sola partida: la veladora, el cempasúchil y el pan de muerto. Si una figura se va sin tocarla, se apaga una veladora. Dicen que el Xoloitzcuintle conoce el camino.",
+        "en": "Build the altar in a single game: the candle, the marigold and the pan de muerto. If a shape gets away untouched, a candle goes out. They say the Xoloitzcuintle knows the way."
       },
-      "metas": [
-        { "id": "partidas", "tipo": "partidas", "meta": 3, "skin": "circle_event_calabaza" },
-        { "id": "figuras", "tipo": "figuras", "meta": 150, "skin": "triangle_event_xolo" },
-        { "id": "puntos", "tipo": "puntos", "meta": 800, "skin": "square_event_catrina" }
-      ]
+      "vidas": 3,
+      "caminos": [
+        {
+          "id": "veladora",
+          "objeto": "veladora",
+          "figuras": 15,
+          "segundos": 2.6,
+          "skin": "circle_event_calabaza",
+          "titulo": { "es": "La veladora", "en": "The candle" }
+        },
+        {
+          "id": "cempasuchil",
+          "objeto": "cempasuchil",
+          "figuras": 15,
+          "segundos": 2.3,
+          "skin": "triangle_event_xolo",
+          "titulo": { "es": "El cempasúchil", "en": "The marigold" }
+        },
+        {
+          "id": "pan",
+          "objeto": "pan",
+          "figuras": 15,
+          "segundos": 2.0,
+          "skin": "square_event_catrina",
+          "titulo": { "es": "El pan de muerto", "en": "The pan de muerto" }
+        }
+      ],
+      "fondo": "background_event_altar"
     }
   ]
 }
