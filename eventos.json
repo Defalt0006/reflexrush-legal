@@ -4,6 +4,7 @@
       "id": "dia-de-muertos-2026",
       "desde": "2026-10-31",
       "hasta": "2026-11-07",
+      "abreConBuzon": true,
       "boosts": false,
       "titulo": {
         "es": "Día de Muertos",
