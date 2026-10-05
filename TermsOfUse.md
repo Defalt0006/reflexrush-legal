@@ -1,7 +1,7 @@
 <!-- Versión en español. English version: TermsOfUse.en.md -->
 # Términos de Uso de Reflex Rush
 
-**Última actualización:** 2 de octubre de 2026
+**Última actualización:** 5 de octubre de 2026
 **Vigente desde:** 9 de agosto de 2026
 
 Estos Términos de Uso ("Términos") constituyen un acuerdo legal entre tú y **Mictlan Studio** ("nosotros") respecto de la aplicación **Reflex Rush** (la "App"; `com.mictlanstudio.reflexrush`). Al descargar, acceder o usar la App aceptas estos Términos. Si no estás de acuerdo, no uses la App.
@@ -28,6 +28,7 @@ Las compras dentro de la App se procesan a través de **Google Play**. Aplican l
 
 - Los artículos **permanentes** (por ejemplo, "sin anuncios" o skins compradas) pueden **restaurarse** en el mismo dispositivo o cuenta.
 - Los artículos **consumibles** ya utilizados (monedas, boosts, cofres o revivir) **no se reponen** ni se restauran.
+- Si una compra se reembolsa o se anula, retiramos de tu cuenta lo que esa compra te dio y que aún conserves (por ejemplo, "sin anuncios", las skins del paquete o las monedas que te queden).
 
 ## 6. Publicidad
 La App muestra anuncios, incluidos anuncios con recompensa que tú eliges ver. La disponibilidad y el contenido de los anuncios dependen de proveedores externos. Si adquieres el beneficio "sin anuncios", dejaremos de mostrarte anuncios intersticiales según las reglas de la App.
