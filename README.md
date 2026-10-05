@@ -36,9 +36,8 @@ El juego consulta estos archivos de esta página al abrirse. Si no hay internet 
   - `desde` / `hasta`: fechas `aaaa-mm-dd` entre las que sale el aviso.
 
   Sale uno por sesión como mucho, en el orden del archivo. Los correos del texto se pueden tocar en el juego. No uses la viñeta "•": la fuente del juego no la trae.
-- `recompensas.json` — recompensas para testers. Cada entrada lleva una `huella` (SHA-256 de `"reflexrush-tester:"` + el ID del jugador; nunca el ID) y sus `premios`: `circulo`, `cuadrado`, `triangulo`, `fondo`. El juego calcula la huella de su propio ID, la busca, entrega lo que falte y da las gracias una sola vez.
 - `buzon.json` — el buzón de testers dentro del juego (desde la versión 1.3.0). `activo` lo enciende o lo apaga: apagado, el botón Buzón y la tarjeta que pregunta "¿Cómo va el juego?" no salen. `formulario` es la dirección `.../formResponse` del Formulario de Google donde caen los mensajes (el juego solo envía a direcciones de `https://docs.google.com/forms/`). `campos` dice qué pregunta del formulario (`entry.NNN`) recibe cada dato: `id`, `version`, `tipo`, `mensaje`, `idioma` y `dispositivo`. Si se borra o se vuelve a crear una pregunta del formulario, su número cambia y hay que actualizarlo aquí.
-- `eventos.json` — los eventos del juego (desde la versión 1.3.0). Cada evento lleva:
+- `eventos.json` — los eventos del juego (desde la versión 1.3.0). También lo lee el servidor: solo acepta puntajes y premios del evento dentro de sus fechas (los premios, hasta 2 días después, por si se jugó sin conexión), así que cambiar las fechas no necesita desplegar. Cada evento lleva:
   - `id` (único), `desde` y `hasta`: fechas `aaaa-mm-dd`, de día completo y con la hora del teléfono.
   - `boosts`: `false` es partida directa sin boosts; `true` pasa por la pantalla de antes de jugar.
   - `titulo` y `texto` en `es`/`en`.
@@ -55,6 +54,7 @@ El juego consulta estos archivos de esta página al abrirse. Si no hay internet 
     Al terminar el último camino la partida sigue, cada vez más rápida, hasta que se apagan las veladoras.
   - `fondo`: el id del fondo que se gana al completar todo el recorrido.
   - Opcionales: `acento` y `panel` (`#RRGGBB`), los colores de sus ventanas.
+  - Opcional, **solo para la prueba cerrada:** `abreConBuzon`. En `true`, quien manda algo por el Buzón juega el evento antes que nadie (el servidor lo recuerda en su cuenta). Al salir al público va en `false`.
   - La tabla de puntajes de cada evento es `event_` más su `id` con guion bajo (`dia-de-muertos-2026` → `event_dia_de_muertos_2026`). Por eso el `id` lleva el año: cada edición tiene su propia tabla. Hay que crearla en el servidor antes de que empiece el evento.
 
   Fuera de fechas o sin archivo, el botón de Eventos dice «Próximamente», y la pestaña de Eventos de la tabla de puntajes se queda cerrada. Cambiar fechas, textos o números no necesita sacar build; una skin u objeto nuevo sí.

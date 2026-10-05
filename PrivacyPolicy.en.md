@@ -1,8 +1,8 @@
 <!-- English version. Spanish version: PrivacyPolicy.md -->
 # Reflex Rush Privacy Policy
 
-**Last updated:** October 4, 2026
-**Effective date:** October 4, 2026
+**Last updated:** October 5, 2026
+**Effective date:** October 5, 2026
 
 Mictlan Studio ("Mictlan Studio", "we", "us") operates the mobile application **Reflex Rush** (the "App"; package ID `com.mictlanstudio.reflexrush`). This Privacy Policy explains how we collect, use, share, and protect information when you use the App, and the rights available to you.
 
@@ -20,7 +20,7 @@ By downloading or using Reflex Rush you accept the practices described in this P
 - **Player name (optional):** a nickname you choose (max 14 characters). It is visible to other players on leaderboards and in the friends feature. On leaderboards, other players can also see the background you have equipped.
 - **Support communications:** if you contact us, we receive your email address, your player ID, and the content of your message.
 - **In-game Mailbox (optional):** if you write to us from the game's Mailbox, we receive your message, the type you chose (feedback, idea, or problem), your player ID, the game version, the language, and your phone model; the Mailbox tells you this before sending. It does not ask for your name or email. Messages are stored in a Google Forms form and its Google Sheets spreadsheet, which only we can access.
-- **Tester rewards:** if you took part in the closed test and we give you a reward, we publish a cryptographic fingerprint (SHA-256 hash) of your player ID on our website so the game can deliver it. Your player ID cannot be derived from the fingerprint, and we do not publish your player ID, name, or email.
+- **Tester rewards:** if you take part in the game's tests and we give you a reward, we keep your account identifier on a private list on our server so we can deliver it. Only our server reads this list: it is not public and does not include your name or email.
 - **Name in the credits (optional):** if you ask us to, we show the name you choose in the game's credits. We only add it with your permission and remove it whenever you ask.
 - **Account (optional):** you can play without an account, as a guest. If you want to keep your progress when you switch phones, you can link one of these options:
   - **Google Play Games:** Google handles sign-in. We receive your Google Play Games identifier and the name you display on that service.
@@ -75,7 +75,7 @@ We share information only: (a) with the providers listed in Section 3 to operate
 Your information may be processed in countries other than your own, including the United States and the European Union, where data protection may differ. Where applicable, our providers implement recognized transfer mechanisms (for example, standard contractual clauses).
 
 ## 7. Data retention
-We retain your cloud progress while your profile exists or until you request deletion. Local data remains on your device until you delete it. Mailbox messages are kept for up to 12 months, to review and follow up on them. Support and transaction records are retained as long as necessary for the described purposes and to comply with legal obligations.
+We retain your cloud progress while your profile exists or until you request deletion. Local data remains on your device until you delete it. Mailbox messages are kept for up to 12 months, to review and follow up on them. The tester list is kept while you take part in the tests or until you ask to be removed. Support and transaction records are retained as long as necessary for the described purposes and to comply with legal obligations.
 
 ## 8. Your rights
 

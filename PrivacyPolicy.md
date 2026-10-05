@@ -1,7 +1,7 @@
 <!-- Versión en español. English version: PrivacyPolicy.en.md -->
 # Política de Privacidad de Reflex Rush
 
-**Última actualización:** 4 de octubre de 2026
+**Última actualización:** 5 de octubre de 2026
 **Vigente desde:** 4 de octubre de 2026
 
 Mictlan Studio ("Mictlan Studio", "nosotros") opera la aplicación móvil **Reflex Rush** (la "App"; ID de paquete `com.mictlanstudio.reflexrush`). Esta Política de Privacidad describe cómo recopilamos, usamos, compartimos y protegemos la información cuando usas la App, así como los derechos que te corresponden.
@@ -20,7 +20,7 @@ Al descargar o usar Reflex Rush aceptas las prácticas descritas en esta Políti
 - **Nombre de jugador (opcional):** un alias que tú eliges (máx. 14 caracteres). Es visible para otros jugadores en clasificaciones y en la función de amigos. En las clasificaciones también se ve el fondo que tengas puesto.
 - **Comunicaciones de soporte:** si nos contactas, recibimos tu dirección de correo, tu identificador de jugador y el contenido de tu mensaje.
 - **Buzón de opiniones (opcional):** si nos escribes desde el Buzón del juego, recibimos tu mensaje, el tipo que elegiste (opinión, idea o problema), tu identificador de jugador, la versión del juego, el idioma y el modelo de tu teléfono; el Buzón te lo indica antes de enviar. No pide tu nombre ni tu correo. Los mensajes se guardan en un formulario de Google Forms y en su hoja de cálculo de Google, a los que solo nosotros tenemos acceso.
-- **Recompensas para testers:** si participaste en la prueba cerrada y te damos una recompensa, publicamos en nuestro sitio una huella cifrada (hash SHA-256) de tu identificador de jugador, para que el juego te la entregue. A partir de la huella no se puede obtener tu identificador, y no publicamos tu identificador, tu nombre ni tu correo.
+- **Recompensas para testers:** si participas en las pruebas del juego y te damos una recompensa, guardamos el identificador de tu cuenta en una lista privada de nuestro servidor para entregártela. La lista solo la lee nuestro servidor: no es pública y no incluye tu nombre ni tu correo.
 - **Nombre en los créditos (opcional):** si nos lo pides, mostramos en los créditos del juego el nombre que tú elijas. Solo lo ponemos con tu permiso y lo quitamos cuando nos lo pidas.
 - **Cuenta (opcional):** puedes jugar sin cuenta, como invitado. Si quieres conservar tu progreso al cambiar de teléfono, puedes vincular una de estas opciones:
   - **Google Play Games:** Google gestiona el inicio de sesión. Recibimos tu identificador de Google Play Games y el nombre que muestras en ese servicio.
@@ -75,7 +75,7 @@ Compartimos información únicamente: (a) con los proveedores indicados en la Se
 Tu información puede procesarse en países distintos al tuyo, incluidos Estados Unidos y la Unión Europea, donde la protección de datos puede diferir. Cuando aplica, nuestros proveedores implementan mecanismos de transferencia reconocidos (por ejemplo, cláusulas contractuales tipo).
 
 ## 7. Conservación de datos
-Conservamos tu progreso en la nube mientras tu perfil exista o hasta que solicites su eliminación. Los datos locales permanecen en tu dispositivo hasta que los borres. Los mensajes del Buzón se conservan hasta 12 meses, para revisarlos y darles seguimiento. Los registros de soporte y de transacciones se conservan el tiempo necesario para los fines descritos y para cumplir obligaciones legales.
+Conservamos tu progreso en la nube mientras tu perfil exista o hasta que solicites su eliminación. Los datos locales permanecen en tu dispositivo hasta que los borres. Los mensajes del Buzón se conservan hasta 12 meses, para revisarlos y darles seguimiento. La lista de testers se conserva mientras participes en las pruebas o hasta que pidas salir de ella. Los registros de soporte y de transacciones se conservan el tiempo necesario para los fines descritos y para cumplir obligaciones legales.
 
 ## 8. Tus derechos
 

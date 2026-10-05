@@ -1,7 +1,7 @@
 <!-- English version. Spanish version: DataDeletion.md -->
 # Delete your account and data — Reflex Rush
 
-**Last updated:** October 4, 2026
+**Last updated:** October 5, 2026
 
 You may ask us at any time to delete your **Reflex Rush** (`com.mictlanstudio.reflexrush`) account and its associated data. You do not need to have the app installed.
 
@@ -20,7 +20,7 @@ Email **mictlanstudio.support@gmail.com** with the subject **"Delete my account"
 - Your player name and your entries on leaderboards and in the friends list.
 - The link to your sign-in account (Google Play Games, Unity email account, or username and password). The Unity account itself is managed by Unity: you can delete it from your Unity account.
 - Your Mailbox messages.
-- If you were a tester with a reward, your fingerprint on the rewards list.
+- If you were a tester with a reward, your identifier on the private tester list.
 - Your name in the credits, if you appeared there.
 
 ## 3. What is retained, and for how long
